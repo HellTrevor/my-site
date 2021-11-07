@@ -197,12 +197,11 @@ nav {
 
 /* Section */
 
-.section__about_us {
+.section__learning__languages {
     padding: 50px 0;
 }
 .section__header {
     width: 100%;
-    max-width: 700px;
     margin: 0 auto 40px;
     color:rgba(32, 32, 32, 0.815);
 
@@ -215,9 +214,15 @@ nav {
     font-family: 'Russo One', sans-serif;
     color:rgba(32, 32, 32, 0.815);
     margin-bottom: -5px;
+    line-height: 100%;
 }
 
 .section__suptitle {
+    max-width: 700px;
+
+    margin: auto;
+    margin-top: 40px;
+
     font-size: 20px;
     font-weight: 600;
     font-family: 'Open Sans', sans-
@@ -234,7 +239,7 @@ nav {
 }
 
 .lang__in__work { 
-    width: 10%;
+    width: 13%;
     padding: 5px 0px;
     margin: auto;
     border: 4px solid;
@@ -261,6 +266,7 @@ nav {
     width: 5%;
     padding: 15px 0px;
     margin: auto;
+    margin-top: 10px;
     justify-content: space-between;
 }
 
@@ -275,8 +281,7 @@ nav {
     width: 20%;
     padding: 5px 5px;
     
-    margin: auto;
-    margin-top: 5px;
+    margin-top: 15px;
 
     color: #333;
     font-size: 22px;
@@ -293,7 +298,7 @@ nav {
 }
 
 .description__text:hover {
-    margin-top: 1%;
+    /* margin-top: 1%; */
     transition:  0.2s linear;
     transform: scale(1.2);
 }
