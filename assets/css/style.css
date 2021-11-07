@@ -226,7 +226,7 @@ nav {
 }
 
 
-/* About */
+/* Languages */
 
 .languages {
     display: flex;
@@ -289,15 +289,11 @@ nav {
     border: 2px solid #333;
     border-radius: 10px;
 
-    transition:  0.5s linear;
+    transition:  0.2s linear;
 }
 
 .description__text:hover {
-    transition:  0.5s linear;
+    margin-top: 1%;
+    transition:  0.2s linear;
     transform: scale(1.2);
-}
-
-.description__name__language {
-    color: #d18d28;
-    font-size: 24px;
 }
