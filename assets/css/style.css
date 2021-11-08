@@ -335,6 +335,7 @@ nav {
 
     color: #fff;
     background-color: #d18d28;
+    word-wrap: break-word;
 
     font-weight: 400;
     font-family: 'Play', sans-serif;
@@ -353,6 +354,7 @@ nav {
     font-weight: 400;
     font-family: 'Play', sans-serif;
     text-transform: uppercase;
+    word-wrap: break-word;
     
     border-right: 4px solid #ffffff88;
 }
