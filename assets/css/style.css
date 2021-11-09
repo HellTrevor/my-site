@@ -206,10 +206,13 @@ nav {
 }
 .section__header {
     max-width: 950px;
+
     width: 100%;
     margin: 0 auto 40px;
-    color:rgba(32, 32, 32, 0.815);
+    margin-top: 35px;
+    
 
+    color:rgba(32, 32, 32, 0.815);
     text-align: center;
 }
 
@@ -218,15 +221,14 @@ nav {
     font-weight: 400;
     font-family: 'Russo One', sans-serif;
     color:rgba(32, 32, 32, 0.815);
-    margin-bottom: -5px;
-    line-height: 100%;
+    line-height: 10%;
 }
 
 .section__suptitle {
     max-width: 700px;
 
     margin: auto;
-    margin-top: 40px;
+    margin-top: 72px;
 
     font-size: 20px;
     font-weight: 600;
@@ -239,8 +241,11 @@ nav {
 /* Languages */
 
 .languages {
-    margin: auto;
     max-width: 950px;
+
+    margin: auto;
+    margin-top: 40px;
+    
     display: flex;
     justify-content: space-between;
 }
@@ -316,8 +321,7 @@ nav {
 /* Level */
 
 .level {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 100px;
     background-color: #d18d28;
 }
 
@@ -332,45 +336,49 @@ nav {
 .level__languages {
     padding: 50px 0;
     flex: 1 1 0;
-
     color: #fff;
-    background-color: #d18d28;
+    background-color: #333;
     word-wrap: break-word;
 
     font-weight: 400;
     font-family: 'Play', sans-serif;
     text-transform: uppercase;
 
-    border-right: 4px solid #ffffff88;
-}
-
-.level__languages__left {
-    padding: 50px 0;
-    flex: 1 1 0;
-
-    color: #fff;
-    background-color: #d18d28;
-
-    font-weight: 400;
-    font-family: 'Play', sans-serif;
-    text-transform: uppercase;
-    word-wrap: break-word;
-    
-    border-left: 4px solid #ffffff88;
-    border-right: 4px solid #ffffff88;
+    transition: color 1s linear, background-color 1s linear;
 }
 
 .level__languages__right {
     padding: 31px 0;
     flex: 1 1 0;
-
     color: #fff;
-    background-color: #d18d28;
+    background-color: #333;
     word-wrap: break-word;
 
     font-weight: 400;
     font-family: 'Play', sans-serif;
     text-transform: uppercase;
     
-    border-right: 4px solid #ffffff88;
+    transition: color 1s linear, background-color 1s linear;
+}
+
+.level__languages:hover, 
+.level__languages__left:hover,
+.level__languages__right:hover {
+    background-color: #3a829e;
+    color: rgb(255, 255, 255);
+}
+
+
+/* Border */
+
+.border {
+    flex: 1 1 0;
+    background-color: #d18d28;
+    border-right: 10px solid #fff;
+}
+.border__left {
+    flex: 1 1 0;
+    background-color: #d18d28;
+    border-left: 10px solid #fff;
+    border-right: 10px solid #fff;
 }
