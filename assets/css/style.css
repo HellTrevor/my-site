@@ -144,7 +144,7 @@ body {
 
 .prices {
     margin: 74px auto;
-    max-width: 1230px;  
+    /* width: calc(100% - 345px); */
     text-align: center; 
 }
 
@@ -337,6 +337,12 @@ body {
     display: flex;
     justify-content: space-between;
     max-width: 1170px;
+
+    @media only screen and (min-width: 1170px) {
+        &:nth-child(2n + 1) {
+          background: rgba(0, 0, 0, 0.3);
+        }
+    }
 }
 
 .clients__box__with__images {
@@ -356,7 +362,7 @@ body {
     margin: auto;
     margin-top: 40px;
     padding-bottom: 92px;
-    width: 1200px;
+    /* width: 1200px; */
     display: flex;
     justify-content: space-between;
 }
