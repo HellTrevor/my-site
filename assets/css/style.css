@@ -378,7 +378,7 @@ body {
 }
 
 .footer__box {
-    margin: auto;
+    margin: auto 15px;
     display: flex;
     justify-content: space-between;
     max-width: 1170px;
@@ -513,6 +513,7 @@ body {
 }
 
 .facts__img__box {
+    margin: auto;
     margin-top: 20px;
     margin-right: 20px;
     width: 55px;
@@ -528,6 +529,7 @@ body {
 
 .box__abilities {
     display: table;
+    margin: aut 15px;
 }
 
 .testimonials__box__abilities {
@@ -558,27 +560,18 @@ body {
 }
 
 .work__name__img {
-    /* width: 370px; */
     margin-top: 31px;
     margin-left: 0;
-    
-    /* color: #c69b6e;
-    font-size: 16px;
-    font-weight: 700;
 
-    text-transform: uppercase;
-    text-align: left; */
+    text-align: left;
 }
 
 .link__work {
-    width: 370px;
-    margin-left: 0;
     color: #c69b6e;
     font-size: 16px;
     font-weight: 700;
-
     text-transform: uppercase;
-    text-align: left;
+    text-decoration: none;
 }
 
 .service__name__img {
