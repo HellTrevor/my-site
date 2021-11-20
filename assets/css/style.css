@@ -362,7 +362,7 @@ body {
     margin: auto;
     margin-top: 40px;
     padding-bottom: 92px;
-    /* width: 1200px; */
+    max-width: 1170px;
     display: flex;
     justify-content: space-between;
 }
@@ -380,6 +380,7 @@ body {
 }
 
 .footer__box {
+    margin: auto;
     display: flex;
     justify-content: space-between;
     max-width: 1170px;
@@ -525,13 +526,6 @@ body {
     margin-right: 20px;
     width: 55px;
     height: 55px;
-}
-
-.abilities__item {
-    margin: auto;
-    max-width: 800px;
-    display: flex;
-    justify-content: space-between;
 }
 
 .box__abilities {
@@ -919,8 +913,8 @@ body {
 
 footer {
     margin: 74px auto;
-    max-width: 1170px;
     text-align: center; 
+    /* align-items: center; */
 }
 
 .footer__left {
