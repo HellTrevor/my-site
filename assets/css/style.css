@@ -392,7 +392,6 @@ body {
 }
 
 .big__img__border__box {
-    margin: 15px;
     margin-top: 53px;
     width: 370px;
     height: 278px;
@@ -529,7 +528,7 @@ body {
 
 .box__abilities {
     display: table;
-    margin: aut 15px;
+    margin: auto 15px;
 }
 
 .testimonials__box__abilities {
