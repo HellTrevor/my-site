@@ -15,7 +15,7 @@ body {
 /* Container */
 
 .container {
-    width: 100%;
+    /* width: 100%; */
     max-width: 1600px;
     height: 872px;
     background-color: #2c2b2a;
@@ -28,7 +28,7 @@ body {
 .header {
     display: flex;
     width: 100%;
-    max-width: 1230px;
+    /* max-width: 1230px; */
     margin: 0 auto;
     justify-content: space-between;
 }
@@ -130,6 +130,7 @@ body {
 }
 
 .works {
+    width: 100%;
     margin: 74px auto;
     margin-top: 100px;
     text-align: center;
